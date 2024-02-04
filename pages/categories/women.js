@@ -50,7 +50,7 @@ export default function WomenPage({ products }) {
                 <Header />
                 <ContentWrapper>
                     <Center>
-                        <Title>Women's Shoes</Title>
+                        <Title>Women&apos;s Shoes</Title>
                         {Object.entries(productsByCategory).map(([categoryName, products]) => (
                             <>
                                 <StyledDiv>

@@ -47,7 +47,7 @@ export default function WomenProductsByCategoryPage({ products }) {
         <Header />
         <ContentWrapper>
           <Center>
-            <Title>Women's {selectedCategory} Shoes</Title>
+            <Title>Women&apos;s {selectedCategory} Shoes</Title>
             {Object.entries(productsByCategory).map(
               ([categoryName, products]) =>
                 categoryName === selectedCategory && (
