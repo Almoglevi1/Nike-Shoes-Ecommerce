@@ -31,7 +31,7 @@ const Title = styled(Link)`
 `;
 
 const TitleDiv = styled.div`
-  height: 40px;
+  height: 45px;
 `;
 
 const ProductInfoBox = styled.div`
