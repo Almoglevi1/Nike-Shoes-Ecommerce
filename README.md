@@ -29,6 +29,18 @@ To get started with the E-commerce Store, follow these steps:
     
 5. Open http://localhost:3000 in your browser to access the store.
 
+## RESTful API
+
+This project implements a RESTful API for handling various operations related to the e-commerce store. The API is built using Next.js API routes and provides endpoints for managing products, shopping cart, and checkout process.
+
+Here are some of the key API endpoints:
+
+- /api/products: This endpoint is used for fetching all the products available in the store.
+- /api/cart: This endpoint is used for managing the shopping cart. It supports operations like adding a product to the cart, removing a product from the cart, and fetching all products in the cart.
+- /api/checkout: This endpoint is used for handling the checkout process. It accepts the customer's shipping information and the cart details, initiates the payment process, and returns a URL for the payment page.
+
+Each of these endpoints follows the principles of REST. They are stateless, meaning each request from the client to the server must contain all the information needed to understand and process the request. They also use standard HTTP methods (GET, POST, PUT, DELETE) to perform operations.
+
 ## Payment Processing
 
 This project uses [Stripe](https://stripe.com/) for payment processing. Stripe provides the infrastructure for securely handling payments and transferring money between your application and your bank account. 
